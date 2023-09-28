@@ -1,0 +1,299 @@
+
+/*body de la page*/
+.tete{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(29, 26, 26, 0.1) , #000), url(Illustrations/Bathome1.png);
+    background-size:no-repeat center cover;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* la partie tete */
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ul li{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    list-style: none;
+    margin-right: 100px;
+    color: white;
+    font-size: 10px;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+img{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.texte{
+    color: white;
+    margin-top: 25%;
+    width: 500px;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    margin: 0 1rem;
+    width: 200px;
+    height: 55px;
+    opacity: 40%;
+}
+.btn button a{
+    text-decoration: none;
+    color: #000;
+}
+.btn button:hover{
+    opacity: 100%;
+}
+.fleche_down{
+    text-align: center;
+    margin-left: -10%;
+}
+.container{
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 1));
+    color: #ffffff;
+    padding: 20px;
+}
+.container p{
+    text-align: center;
+}
+.container p, h1{
+    margin-left: 200px;
+    margin-right: 150px;
+    font-size: 20px;
+}
+.container h1{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.trois-derniers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 200px;
+}
+
+.trois-derniers span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.legende{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.Bathome12{
+    margin-right: 0;
+    margin-top: -100px;
+    margin-left: 990px;
+}
+.legende span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.justice-league{
+    margin-right: 0;
+    margin-left: 0;
+}
+.multimedia h1{
+    padding: 20px;
+    border-right: 2px solid #ffffff;
+}
+.bandes-annonces{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bande-annonce{
+    text-align: center;
+    width: 700px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.text{
+    border-left: 2px solid;
+    text-align: center;
+    padding-left: 0;
+}
+.play{
+    display: block;
+}
+
+.contact{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1f1e1d, #01131d);
+    width: 800px;
+    height: 500px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 16px;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.contact h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact .newsletter{
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact .newsletter label{
+    text-transform: uppercase;
+}
+
+.contact .newsletter .email{
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    background:linear-gradient(to right, #353331, #032e46);
+    color: #ffffff;
+}
+.contact .newsletter .checkbox{
+    display: block;
+    flex-direction: row;
+}
+
+.contact .newsletter .option{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 16px;
+}
+.contact .newsletter .option .valeur{
+    background: linear-gradient(to right, #353331, #032e46);
+    width: 90%;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #000;
+}
+.contact .newsletter textarea{
+    width: 90%;
+    height: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+.contact .newsletter button{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #EDDEBF, #990008)
+}
+.contact .newsletter button:hover{
+    transform: scaleX(1.1);
+    font-weight: bold;
+}
+.contact .newsletter .pop-up{
+    width: 500px;
+    height: 350px;
+    background: linear-gradient(to right, #413f3d, #052b41);
+    position: absolute;
+    text-align: center;
+    border: 1px solid #021b29;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.contact .newsletter .pop-up h3{
+    text-align: center;
+    margin: 30%;
+}
+.container .icon{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    top: 10%;
+    right: 20px;
+}
+.container .icon img{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 50%;
+}
+.container .icon .reseau-socio{
+    border: 1px solid #000;
+}
+.container .icon .reseau-socio:hover{
+    border: 1px solid #FFFF00;
+    padding: 10px;
+}
+.container section{
+    background: linear-gradient(to bottom, #1f1e1d, #01131d);
+    width: 800px;
+    margin-left: 20%;
+}
+.container blockquote{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    position:  relative;
+}
+
+
+
+
+
+
+
+
